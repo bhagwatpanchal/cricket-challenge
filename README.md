@@ -69,7 +69,7 @@ Follow the steps below to get the project running:
 The command will output a ball-by-ball commentary and the final match result.
 
 6. **OUTPUT:**
-
+    ```bash
     SUPER OVER - AUSTRALIA 11 HAS TO CHASE 21 RUNS
     0. Sudhakar bowled Yorker ball,
     Craig played Perfect Straight shot
