@@ -46,6 +46,7 @@ Follow the steps below to get the project running:
     php artisan make:test CommentaryServiceTest --unit
 
 4. **Code Structure:**
+    ```bash
     cricket-challenge/
     ├── app/
     │   ├── Console/
