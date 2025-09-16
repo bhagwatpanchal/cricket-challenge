@@ -1,6 +1,6 @@
 # CricSummit 2021 — Cricket Coding Challenge
 
-A command-line cricket simulation built with **Laravel**, demonstrating the application of **SOLID principles, Test-Driven Development (TDD), and Clean Code** practices.
+A command-line cricket simulation built with **Laravel 12**, demonstrating the application of **SOLID principles, Test-Driven Development (TDD), and Clean Code** practices.
 
 This project simulates the **"Super Over" challenge** from the CricSummit 2021 tournament. It predicts the outcome of each ball, generates live commentary, and simulates a full super over using predefined static data.
 
@@ -61,3 +61,33 @@ Follow the steps below to get the project running:
             ├── PredictionServiceTest.php   # Tests prediction logic
             └── CommentaryServiceTest.php   # Tests commentary generation
 
+5. **Running the Application:**
+
+    ```bash
+    php artisan cric:superover
+
+The command will output a ball-by-ball commentary and the final match result.
+
+6. **OUTPUT:**
+
+    SUPER OVER - AUSTRALIA 11 HAS TO CHASE 21 RUNS
+    0. Sudhakar bowled Yorker ball,
+    Craig played Perfect Straight shot
+    Just over the fielder. - 4 runs
+    1. Sudhakar bowled Pace ball,
+    Craig played Early Flick shot
+    Excellent line and length. - 0 runs
+    2. Sudhakar bowled Slower Ball ball,
+    Craig played Good LegGlance shot
+    Excellent line and length. - 0 runs
+    3. Sudhakar bowled Yorker ball,
+    Craig played Perfect Long On shot
+    Just over the fielder. - 4 runs
+    4. Sudhakar bowled Pace ball,
+    Craig played Late LongOff shot
+    Excellent line and length. - 0 runs
+    5. Sudhakar bowled Inswinger ball,
+    Craig played Perfect LongOn shot
+    Excellent line and length. - 0 runs
+    AUSTRALIA scored: 8 runs
+    AUSTRALIA lost by 13 runs.
