@@ -91,3 +91,28 @@ The command will output a ball-by-ball commentary and the final match result.
     Excellent line and length. - 0 runs
     AUSTRALIA scored: 8 runs
     AUSTRALIA lost by 13 runs.
+
+  2nd Output
+```bash
+
+    SUPER OVER - AUSTRALIA 11 HAS TO CHASE 21 RUNS
+    0. Sudhakar bowled Bouncer ball,
+    Craig played Perfect Straight shot
+    Just over the fielder. - 4 runs
+    1. Sudhakar bowled Leg Cutter ball,
+    Craig played Early Flick shot
+    Excellent line and length. - 0 runs
+    2. Sudhakar bowled Leg Cutter ball,
+    Craig played Good LegGlance shot
+    Excellent line and length. - 0 runs
+    3. Sudhakar bowled Off Cutter ball,
+    Craig played Perfect Long On shot
+    Excellent line and length. - 0 runs
+    4. Sudhakar bowled Off Break ball,
+    Craig played Late LongOff shot
+    Excellent line and length. - 0 runs
+    5. Sudhakar bowled Bouncer ball,
+    Craig played Perfect LongOn shot
+    That's massive and out of the ground. - 6 runs
+    AUSTRALIA scored: 10 runs
+    AUSTRALIA lost by 11 runs.

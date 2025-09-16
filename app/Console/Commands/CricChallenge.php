@@ -19,8 +19,6 @@ class CricChallenge extends Command
         $wickets = 0;
 
         $this->info('SUPER OVER - AUSTRALIA 11 HAS TO CHASE ' . $target . ' RUNS');
-
-        // Sample input from the PDF
         $inputShots = [
             ['Straight', 'Perfect'],
             ['Flick', 'Early'],
@@ -29,8 +27,7 @@ class CricChallenge extends Command
             ['LongOff', 'Late'],
             ['LongOn', 'Perfect'],
         ];
-
-        // We'll use a random bowling card for each ball
+       
         $bowlingCards = CricketData::BOWLING_CARDS;
 
         foreach ($inputShots as $ballNumber => $shotData) {
@@ -52,8 +49,7 @@ class CricChallenge extends Command
             } else {
                 $score += (int) $outcome[0];
             }
-
-            // Print output
+            
             $this->info("{$ballNumber}. Sudhakar bowled {$bowlName} ball,");
             $this->info("   Craig played {$shotTiming} {$shotName} shot");
             $this->info("   {$commentary} - {$outcome}");
