@@ -36,3 +36,11 @@ Follow the steps below to get the project running:
 2. **Navigate to the project directory:**
     ```bash
     cd cricket-challenge
+3. **Navigate to the project directory:**
+    ```bash
+    php artisan make:class Services/CricketData
+    php artisan make:class Services/PredictionService
+    php artisan make:class Services/CommentaryService
+    php artisan make:command CricChallenge
+    php artisan make:test PredictionServiceTest --unit
+    php artisan make:test CommentaryServiceTest --unit
