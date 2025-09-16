@@ -44,3 +44,19 @@ Follow the steps below to get the project running:
     php artisan make:command CricChallenge
     php artisan make:test PredictionServiceTest --unit
     php artisan make:test CommentaryServiceTest --unit
+
+4. **Code Structure:**
+cricket-challenge/
+├── app/
+│   ├── Console/
+│   │   └── Commands/
+│   │       └── CricChallenge.php      # Entry point (Artisan command)
+│   └── Services/
+│       ├── CricketData.php             # Static data storage (bowling, batting, outcomes, commentary)
+│       ├── PredictionService.php       # Predicts outcome of ball-shot combo
+│       └── CommentaryService.php       # Generates commentary based on outcomes
+└── tests/
+    └── Unit/
+        ├── PredictionServiceTest.php   # Tests prediction logic
+        └── CommentaryServiceTest.php   # Tests commentary generation
+
